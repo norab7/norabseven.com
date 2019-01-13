@@ -1,0 +1,63 @@
+/* Blank */
+
+:root {
+  /* Master Colors */
+  --c1: rgb(86, 128, 233);
+  --c2: rgb(132, 206, 235);
+  --c3: rgb(90, 185, 234);
+  --c4: rgb(193, 200, 228);
+  --c5: rgb(136, 97, 208);
+  --chover: rgb(119, 119, 119);
+  --ctext: rgb(255, 255, 255);
+}
+
+/* Class */
+
+body {
+  display: block;
+  height: 100%;
+  max-height: 100%;
+  margin: 0;
+  font-family: "Arial", "Verdana";
+  background-size: 100%;
+  background-image: url("../resources/starcitizenflyaway.jpg");
+}
+
+.maindiv {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+
+.blankspace {
+  height: 400px;
+}
+
+.headertab {
+  width: 25%;
+  font-size: 17px;
+  padding: 14px 16px;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: var(--ctext);
+  background-color: var(--c1);
+}
+
+.headertab:hover {
+  background-color: var(--chover);
+}
+
+.page {
+  height: 100%;
+  color: var(--ctext);
+  background-color: var(--c3);
+  padding: 100px 20px;
+}
+
+/* id */
+
+#current {
+  background-color: var(--c5);
+}
