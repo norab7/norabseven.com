@@ -3,3 +3,9 @@ function gotoPage(pagename) {
   open(pagename + ".html", "_self");
 
 }
+
+window.onblur = function() {
+  window.onfocus = function(){
+    location.reload(true)
+  }
+};

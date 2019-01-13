@@ -1,63 +1,114 @@
-/* Blank */
+/* class */
 
-:root {
-  /* Master Colors */
-  --c1: rgb(86, 128, 233);
-  --c2: rgb(132, 206, 235);
-  --c3: rgb(90, 185, 234);
-  --c4: rgb(193, 200, 228);
-  --c5: rgb(136, 97, 208);
-  --chover: rgb(119, 119, 119);
-  --ctext: rgb(255, 255, 255);
-}
-
-/* Class */
-
-body {
-  display: block;
+html, body {
+  width: 100%;
   height: 100%;
-  max-height: 100%;
+  padding: 0;
   margin: 0;
   font-family: "Arial", "Verdana";
-  background-size: 100%;
+}
+
+.socialmedia {
+  position: fixed;
+  right: 0%;
+}
+
+.socialmedia a {
+  float: right;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 20px;
+}
+
+.socialmedia a:hover {
+  color: white;
+  background-color: rgba(100, 100, 255, 0.75);
+}
+
+
+
+.grayhover {
+  background-color: rgba(255, 255, 255, 0.15);
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+.grayhover:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* id's */
+
+#maindiv {
+  height: 100%;
+  background-position: center;
   background-image: url("../resources/starcitizenflyaway.jpg");
 }
 
-.maindiv {
+#blankspace {
+  width: 100%;
+  height: 250px;
+}
+
+#maincenterimg {
+  width: 42%;
+  height: 20%;
+  max-height: 20%;
+  padding-top: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2%/10%;
+}
+
+#maincenterimg img {
+  display: block;
   height: 100%;
-  width: 80%;
-  margin: auto;
+  padding: 0;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2%/10%;
 }
 
-.blankspace {
-  height: 400px;
+#maincenterimg button {
+  display: block;
+  width: 200px;
+  height: 70px;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 2px 2px 5px black;
+  color: rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 1px rgba(128, 128, 128, 0.5);
+  border: 0px black;
+  border-radius: 10px;
 }
 
-.headertab {
-  width: 25%;
-  font-size: 17px;
-  padding: 14px 16px;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  color: var(--ctext);
-  background-color: var(--c1);
+
+/* ### Unused code ###
+
+.facebook:hover {
+  background-color: rgba(59, 88, 152, 0.3);
 }
 
-.headertab:hover {
-  background-color: var(--chover);
+.twitter:hover {
+  background-color: rgba(85, 172, 238, 0.3);
 }
 
-.page {
-  height: 100%;
-  color: var(--ctext);
-  background-color: var(--c3);
-  padding: 100px 20px;
+.google:hover{
+  background-color: rgba(221, 76, 57, 0.3);
 }
 
-/* id */
-
-#current {
-  background-color: var(--c5);
+.linkedin:hover{
+  background-color: rgba(0, 139, 181, 0.3);
 }
+
+.youtube:hover{
+  background-color: rgba(187, 0, 0, 0.3);
+}
+
+*/
